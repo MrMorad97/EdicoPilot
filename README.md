@@ -483,10 +483,26 @@ Key dependencies include:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Lead Developers
+<h2>👥 Lead Developers</h2>
 
-- **Morad Boussagman** - [@MrMorad97](https://github.com/MrMorad97) - *Lead Developer & Project Architect*
-- **Ayoub Hammad** - [@sung55jinwoo](https://github.com/sung55jinwoo) - *Lead Developer & AI Specialist*
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+  <div style="width: 200px; padding: 15px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-align: center;">
+    <img src="https://github.com/MrMorad97.png" width="100" height="100" style="border-radius: 50%; border: 2px solid #00c6ff;" alt="MrMorad97"/>
+    <h3>Morad Boussagman</h3>
+    <p><em>Lead Developer & AI Specialist</em></p>
+    <a href="https://github.com/MrMorad97" target="_blank">@MrMorad97</a>
+  </div>
+
+  <div style="width: 200px; padding: 15px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-align: center;">
+    <img src="https://github.com/sung55jinwoo.png" width="100" height="100" style="border-radius: 50%; border: 2px solid #00c6ff;" alt="sung55jinwoo"/>
+    <h3>Ayoub Hammad</h3>
+    <p><em>Lead Developer &  AI Specialist</em></p>
+    <a href="https://github.com/sung55jinwoo" target="_blank">@sung55jinwoo</a>
+  </div>
+
+</div>
+
 
 ## 🙏 Acknowledgments
 
