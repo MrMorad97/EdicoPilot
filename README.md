@@ -25,7 +25,7 @@ A comprehensive conversational chatbot system that integrates multiple deep lear
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/MrMorad97/EdicoPilot.git
 cd EducoPilot
 ```
 
