@@ -37,7 +37,7 @@ cd EducoPilot
 python -m venv venv
 
 # Activate virtual environment
-venv\Scripts\activate
+venv\Scripts\activate.bat
 
 # Verify activation (should show venv path)
 where python
