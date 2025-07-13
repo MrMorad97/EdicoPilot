@@ -208,7 +208,7 @@ ollama list
 #### Windows:
 ```cmd
 # Activate virtual environment
-venv\Scripts\activate
+venv\Scripts\activate.bat
 
 # Launch the Streamlit app
 streamlit run server.py
