@@ -483,10 +483,10 @@ Key dependencies include:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+## 👥 Lead Developers
 
-- **Ayoub Hammad** - *Initial work*
-- **Morad Boussagman** - *Initial work*
+- **Morad Boussagman** - [@MrMorad97](https://github.com/MrMorad97) - *Lead Developer & Project Architect*
+- **Ayoub Hammad** - [@sung55jinwoo](https://github.com/sung55jinwoo) - *Lead Developer & AI Specialist*
 
 ## 🙏 Acknowledgments
 
