@@ -1,0 +1,85 @@
+rive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+==================================================
+Loading datasets...
+Loaded 76053 dialogue pairs from /content/drive/MyDrive/dailydialog_model/dialogues_train.txt.
+Loaded 7069 dialogue pairs from /content/drive/MyDrive/dailydialog_model/dialogues_validation.txt.
+Loaded 6740 dialogue pairs from /content/drive/MyDrive/dailydialog_model/dialogues_test.txt.
+Training data size: 76073
+==================================================
+Building tokenizer...
+Vocabulary size: 17462
+Tokenizer saved at /content/drive/MyDrive/dailydialog_model/dailydialog_tokenizer.pkl with vocab size: 17462
+==================================================
+Initializing model...
+==================================================
+Starting training...
+Using device: cuda
+GPU: Tesla T4
+CUDA version: 12.4
+Epoch 1/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.88it/s, train_loss=3.62]
+Epoch 1/30: Train Loss = 4.3154, Val Loss = 3.7795
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 2/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.94it/s, train_loss=3.41]
+Epoch 2/30: Train Loss = 3.6051, Val Loss = 3.5436
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 3/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.92it/s, train_loss=3.27]
+Epoch 3/30: Train Loss = 3.3155, Val Loss = 3.4330
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 4/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.88it/s, train_loss=2.9]
+Epoch 4/30: Train Loss = 3.1047, Val Loss = 3.3835
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 5/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.86it/s, train_loss=2.99]
+Epoch 5/30: Train Loss = 2.9383, Val Loss = 3.3589
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 6/30: 100%|██████████| 2378/2378 [02:30<00:00, 15.85it/s, train_loss=2.56]
+Epoch 6/30: Train Loss = 2.8023, Val Loss = 3.3457
+  New best model saved at /content/drive/MyDrive/dailydialog_model/best_dailydialog_chatbot.pth!
+Epoch 7/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.92it/s, train_loss=2.49]
+Epoch 7/30: Train Loss = 2.6894, Val Loss = 3.3592
+Epoch 8/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.96it/s, train_loss=2.64]
+Epoch 8/30: Train Loss = 2.5971, Val Loss = 3.3608
+Epoch 9/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.95it/s, train_loss=2.39]
+Epoch 9/30: Train Loss = 2.5209, Val Loss = 3.3747
+Epoch 10/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.95it/s, train_loss=2.18]
+Epoch 10/30: Train Loss = 2.3857, Val Loss = 3.3626
+Epoch 11/30: 100%|██████████| 2378/2378 [02:30<00:00, 15.77it/s, train_loss=2.32]
+Epoch 11/30: Train Loss = 2.3368, Val Loss = 3.3781
+Epoch 12/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.93it/s, train_loss=2.13]
+Epoch 12/30: Train Loss = 2.3010, Val Loss = 3.3926
+Epoch 13/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.91it/s, train_loss=2.08]
+Epoch 13/30: Train Loss = 2.2345, Val Loss = 3.3904
+Epoch 14/30: 100%|██████████| 2378/2378 [02:31<00:00, 15.70it/s, train_loss=2.36]
+Epoch 14/30: Train Loss = 2.2124, Val Loss = 3.4006
+Epoch 15/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.94it/s, train_loss=1.95]
+Epoch 15/30: Train Loss = 2.1942, Val Loss = 3.4108
+Epoch 16/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.94it/s, train_loss=2.27]
+Epoch 16/30: Train Loss = 2.1611, Val Loss = 3.4115
+Epoch 17/30: 100%|██████████| 2378/2378 [02:31<00:00, 15.69it/s, train_loss=2.35]
+Epoch 17/30: Train Loss = 2.1497, Val Loss = 3.4173
+Epoch 18/30: 100%|██████████| 2378/2378 [02:30<00:00, 15.82it/s, train_loss=2.11]
+Epoch 18/30: Train Loss = 2.1413, Val Loss = 3.4210
+Epoch 19/30: 100%|██████████| 2378/2378 [02:32<00:00, 15.64it/s, train_loss=2.39]
+Epoch 19/30: Train Loss = 2.1237, Val Loss = 3.4247
+Epoch 20/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.91it/s, train_loss=2.2]
+Epoch 20/30: Train Loss = 2.1187, Val Loss = 3.4290
+Epoch 21/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.92it/s, train_loss=2.14]
+Epoch 21/30: Train Loss = 2.1146, Val Loss = 3.4277
+Epoch 22/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.93it/s, train_loss=1.72]
+Epoch 22/30: Train Loss = 2.1050, Val Loss = 3.4295
+Epoch 23/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.91it/s, train_loss=2.63]
+Epoch 23/30: Train Loss = 2.1029, Val Loss = 3.4304
+Epoch 24/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.93it/s, train_loss=2.39]
+Epoch 24/30: Train Loss = 2.1015, Val Loss = 3.4321
+Epoch 25/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.92it/s, train_loss=2.11]
+Epoch 25/30: Train Loss = 2.0969, Val Loss = 3.4326
+Epoch 26/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.90it/s, train_loss=1.71]
+Epoch 26/30: Train Loss = 2.0947, Val Loss = 3.4329
+Epoch 27/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.89it/s, train_loss=2.04]
+Epoch 27/30: Train Loss = 2.0945, Val Loss = 3.4332
+Epoch 28/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.90it/s, train_loss=2.3]
+Epoch 28/30: Train Loss = 2.0909, Val Loss = 3.4335
+Epoch 29/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.87it/s, train_loss=2.22]
+Epoch 29/30: Train Loss = 2.0909, Val Loss = 3.4341
+Epoch 30/30: 100%|██████████| 2378/2378 [02:29<00:00, 15.89it/s, train_loss=2.23]
+Epoch 30/30: Train Loss = 2.0905, Val Loss = 3.4347
+Final model saved at /content/drive/MyDrive/dailydialog_model/final_dailydialog_chatbot.pth

@@ -1,0 +1,23 @@
+# Create virtual environment (Linux/Mac)
+python3 -m venv venv
+source venv/bin/activate
+
+# Or on Windows CMD
+# python -m venv venv
+# .\venv\Scripts\activate.bat
+
+# Upgrade pip
+python.exe -m pip install --upgrade pip
+
+# Install requirements
+python.exe -m pip install -r requirements
+
+# Run streamlit app
+streamlit run server.py
+
+# Install Ollama
+winget install Ollama.Ollama
+
+ollama pull tinyllama
+
+pip install pypdf PyPDF2 pdfplumber unstructured[pdf] python-magic-bin

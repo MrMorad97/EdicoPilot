@@ -1,0 +1,36 @@
+// RAG System Architecture
+digraph {
+	rankdir=TB size="8,6"
+	node [color=lightblue2 fontname=Helvetica shape=box style="rounded,filled"]
+	A [label="User Query
+(Input Question)"]
+	B [label="PDF Ingestion & Processing
+- Load PDFs
+- Clean & Split Text
+- Create Embeddings"]
+	C [label="Vector Store & Retriever
+(Chroma DB)"]
+	D [label="Retrieve Top-K Relevant Docs"]
+	E [label="Context Formatter
+(Concatenate & Trim)"]
+	F [label="Prompt Builder
+(Insert Context + Question)"]
+	G [label="Streaming Language Model
+(ChatOllama LLM)"]
+	H [label="Streaming Output
+(Real-time Answer)"]
+	I [label="Response Cache
+(Reused Answers)"]
+	A -> C [label=Query]
+	B -> C [label="Indexed Docs & Embeddings"]
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	F -> I [label="Check Cache" style=dashed]
+	I -> H [label="Cached Response" style=dashed]
+	J [label="Direct Chat Mode
+(No PDFs Ingested)" color=lightgray shape=ellipse style=filled]
+	A -> J [label="If no docs" style=dotted]
+}
